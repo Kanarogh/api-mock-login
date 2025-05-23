@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "nome": "Água Crystal 500ml",
+    "preco": 2,
+    "imposto1": 0.23,
+    "imposto2": 0.77,
+    "custo": 1,
+    "jaFoiComprado": false,
+    "quantidade": 0
+  },
+  {
+    "id": 2,
+    "nome": "Coca-cola 600ml",
+    "preco": 4,
+    "imposto1": 0.5,
+    "imposto2": 1,
+    "custo": 2.5,
+    "jaFoiComprado": false,
+    "quantidade": 0
+  },
+  {
+    "id": 1748029751736,
+    "nome": "Pepsi Cola",
+    "preco": 4,
+    "imposto1": 0.5,
+    "imposto2": 1,
+    "custo": 2.5,
+    "jaFoiComprado": false,
+    "quantidade": 0
+  }
+]

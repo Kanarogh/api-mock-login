@@ -1,0 +1,40 @@
+[
+  {
+    "id": 1748026827999,
+    "clienteId": 1,
+    "dataEntrega": "2025-06-10",
+    "produtos": [
+      {
+        "produtoId": 1,
+        "quantidade": 2,
+        "icms": 1.5
+      },
+      {
+        "produtoId": 2,
+        "quantidade": 1,
+        "icms": 2
+      }
+    ],
+    "status": "confirmado",
+    "dataCriacao": "2025-05-23T19:00:27.999Z"
+  },
+  {
+    "id": 1748028298207,
+    "clienteId": 1,
+    "dataEntrega": "2025-06-10",
+    "produtos": [
+      {
+        "produtoId": 1,
+        "quantidade": 2,
+        "icms": 1.5
+      },
+      {
+        "produtoId": 2,
+        "quantidade": 1,
+        "icms": 2
+      }
+    ],
+    "status": "confirmado",
+    "dataCriacao": "2025-05-23T19:24:58.207Z"
+  }
+]

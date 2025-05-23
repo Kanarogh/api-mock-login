@@ -1,0 +1,20 @@
+[
+  {
+    "id": 4,
+    "email": "jhonatas@teste.com",
+    "nome": "Nome Atualizado",
+    "password": "123456"
+  },
+  {
+    "id": 5,
+    "email": "jhonatas2@gmail.com",
+    "nome": "Jhonatas",
+    "password": "$2b$10$Ty4gqRqM3VTMUWtgklNdxuoG4l5xjj8Wh6SaUhBBj.k5E3emfjlB6"
+  },
+  {
+    "id": 6,
+    "email": "jhonatasteixeira1@outlook.com",
+    "nome": "Jhonatas Teixeira",
+    "password": "$2b$10$a4VeraKm.Y2taNGeKSxeReM3n9rSJ0MpH3tsnJypHhHxC//FXNNMi"
+  }
+]

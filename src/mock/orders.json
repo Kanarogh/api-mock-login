@@ -1,0 +1,124 @@
+[
+  {
+    "id": 1748024357153,
+    "clienteId": 1,
+    "clienteNome": "PackSeven",
+    "status": "em andamento",
+    "data": "2025-05-23T18:19:17.153Z",
+    "dataEntrega": "2025-06-01",
+    "total": 8,
+    "itens": [
+      {
+        "produtoId": 1,
+        "quantidade": 2,
+        "nome": "Água Crystal 500ml",
+        "preco": 2,
+        "subtotal": 4,
+        "precoFinal": 4
+      },
+      {
+        "produtoId": 2,
+        "quantidade": 1,
+        "nome": "Coca-cola 600ml",
+        "preco": 4,
+        "subtotal": 4,
+        "precoFinal": 4
+      }
+    ]
+  },
+  {
+    "id": 1748028326931,
+    "clienteId": 1,
+    "clienteNome": "PackSeven",
+    "status": "finalizado",
+    "data": "2025-05-23T19:25:26.931Z",
+    "dataEntrega": "2025-06-10",
+    "formaPagamento": "Cartão",
+    "vendedor": "Guilherme Farias",
+    "comissao": "10%",
+    "valorPedido": 8,
+    "total": 8,
+    "itens": [
+      {
+        "produtoId": 1,
+        "quantidade": 2,
+        "icms": 1.5,
+        "nome": "Água Crystal 500ml",
+        "preco": 2,
+        "subtotal": 4,
+        "precoFinal": 4
+      },
+      {
+        "produtoId": 2,
+        "quantidade": 1,
+        "icms": 2,
+        "nome": "Coca-cola 600ml",
+        "preco": 4,
+        "subtotal": 4,
+        "precoFinal": 4
+      }
+    ]
+  },
+  {
+    "id": 1748028980529,
+    "clienteId": 1,
+    "clienteNome": "PackSeven",
+    "status": "finalizado",
+    "data": "2025-05-23T19:36:20.529Z",
+    "dataEntrega": "2025-06-01",
+    "formaPagamento": "Pix",
+    "vendedor": "Guilherme Farias",
+    "comissao": "10%",
+    "valorPedido": 200,
+    "total": 8,
+    "itens": [
+      {
+        "produtoId": 1,
+        "quantidade": 2,
+        "nome": "Água Crystal 500ml",
+        "preco": 2,
+        "subtotal": 4,
+        "precoFinal": 4
+      },
+      {
+        "produtoId": 2,
+        "quantidade": 1,
+        "nome": "Coca-cola 600ml",
+        "preco": 4,
+        "subtotal": 4,
+        "precoFinal": 4
+      }
+    ]
+  },
+  {
+    "id": 1748029419162,
+    "clienteId": 1,
+    "clienteNome": "PackSeven",
+    "status": "finalizado",
+    "data": "2025-05-23T19:43:39.162Z",
+    "dataEntrega": "2025-06-01",
+    "formaPagamento": "Pix",
+    "vendedor": "Guilherme Farias",
+    "comissao": "10%",
+    "valorPedido": 8,
+    "total": 8,
+    "itens": [
+      {
+        "produtoId": 1,
+        "quantidade": 2,
+        "nome": "Água Crystal 500ml",
+        "preco": 2,
+        "subtotal": 4,
+        "precoFinal": 4
+      },
+      {
+        "produtoId": 2,
+        "quantidade": 1,
+        "nome": "Coca-cola 600ml",
+        "preco": 4,
+        "subtotal": 4,
+        "precoFinal": 4
+      }
+    ]
+  }
+]
