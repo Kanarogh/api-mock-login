@@ -4,7 +4,7 @@ import * as path from 'path';
 import { CreateClientDto } from './dto/create.client.dto';
 
 
-const CLIENTS_FILE = path.resolve(__dirname, '../../src/mock/clients.json');
+const CLIENTS_FILE = path.resolve(process.cwd(), 'src/mock/clients.json');
 
 @Injectable()
 export class ClientsService {
@@ -34,7 +34,9 @@ export class ClientsService {
   create(dto: CreateClientDto) {
     if (!dto.nome || !dto.cnpj) throw new BadRequestException('Nome e CNPJ são obrigatórios');
     const clients = this.readClients();
-    const newClient = { id: Date.now(), ...dto };
+    const newId = clients.length ? Math.max(...clients.map(p => p.id)) + 1 : 1;
+
+    const newClient = { id: newId, ...dto };
     clients.push(newClient);
     this.writeClients(clients);
     return newClient;

@@ -1,8 +1,8 @@
 import { Controller, Post, Body, UnauthorizedException, HttpCode, BadRequestException } from '@nestjs/common';
 import { AuthService } from './auth.service';
-import { ResetCodeService } from 'src/redefinir_senha/reset-code.service';
-import { MailerService } from 'src/redefinir_senha/nodemailer/mailer.service';
-import { ResetPasswordDto } from 'src/redefinir_senha/dto/reset-password.dto';
+import { ResetCodeService } from 'src/routes/redefinir_senha/reset-code.service';
+import { MailerService } from 'src/routes/redefinir_senha/nodemailer/mailer.service';
+import { ResetPasswordDto } from 'src/routes/redefinir_senha/dto/reset-password.dto';
 
 
 @Controller('auth')

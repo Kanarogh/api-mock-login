@@ -1,123 +1,148 @@
 [
   {
-    "id": 1748024357153,
-    "clienteId": 1,
-    "clienteNome": "PackSeven",
-    "status": "em andamento",
-    "data": "2025-05-23T18:19:17.153Z",
-    "dataEntrega": "2025-06-01",
-    "total": 8,
-    "itens": [
-      {
-        "produtoId": 1,
-        "quantidade": 2,
-        "nome": "Água Crystal 500ml",
-        "preco": 2,
-        "subtotal": 4,
-        "precoFinal": 4
-      },
-      {
-        "produtoId": 2,
-        "quantidade": 1,
-        "nome": "Coca-cola 600ml",
-        "preco": 4,
-        "subtotal": 4,
-        "precoFinal": 4
-      }
-    ]
-  },
-  {
-    "id": 1748028326931,
-    "clienteId": 1,
-    "clienteNome": "PackSeven",
+    "id": 1748899680814,
+    "clienteId": 2,
+    "clienteNome": "Noroeste",
     "status": "finalizado",
-    "data": "2025-05-23T19:25:26.931Z",
-    "dataEntrega": "2025-06-10",
-    "formaPagamento": "Cartão",
+    "data": "2025-06-02T21:28:00.814Z",
+    "dataEntrega": "2025-06-01",
+    "formaPagamento": "Cartão de Crédito",
     "vendedor": "Guilherme Farias",
     "comissao": "10%",
-    "valorPedido": 8,
-    "total": 8,
+    "valorPedido": 48,
+    "total": 48,
     "itens": [
       {
-        "produtoId": 1,
-        "quantidade": 2,
-        "icms": 1.5,
-        "nome": "Água Crystal 500ml",
-        "preco": 2,
-        "subtotal": 4,
-        "precoFinal": 4
+        "produtoId": 3,
+        "quantidade": 3,
+        "nome": "Água Mineral 500ml",
+        "preco": 3,
+        "subtotal": 9,
+        "precoFinal": 9
       },
       {
-        "produtoId": 2,
+        "produtoId": 5,
+        "quantidade": 5,
+        "nome": "Fanta Laranja 350ml",
+        "preco": 5,
+        "subtotal": 25,
+        "precoFinal": 25
+      },
+      {
+        "produtoId": 6,
         "quantidade": 1,
-        "icms": 2,
-        "nome": "Coca-cola 600ml",
+        "nome": "Sprite 1L",
+        "preco": 6,
+        "subtotal": 6,
+        "precoFinal": 6
+      },
+      {
+        "produtoId": 7,
+        "quantidade": 2,
+        "nome": "Água com Gás 500ml",
         "preco": 4,
-        "subtotal": 4,
-        "precoFinal": 4
+        "subtotal": 8,
+        "precoFinal": 8
       }
     ]
   },
   {
-    "id": 1748028980529,
+    "id": 1748899721776,
     "clienteId": 1,
     "clienteNome": "PackSeven",
     "status": "finalizado",
-    "data": "2025-05-23T19:36:20.529Z",
+    "data": "2025-06-02T21:28:41.776Z",
     "dataEntrega": "2025-06-01",
+    "formaPagamento": "Pix",
+    "vendedor": "Jhonatas Teixeira",
+    "comissao": "10%",
+    "valorPedido": 30,
+    "total": 30,
+    "itens": [
+      {
+        "produtoId": 5,
+        "quantidade": 6,
+        "nome": "Fanta Laranja 350ml",
+        "preco": 5,
+        "subtotal": 30,
+        "precoFinal": 30
+      }
+    ]
+  },
+  {
+    "id": 1748980637377,
+    "clienteId": 1,
+    "clienteNome": "PackSeven",
+    "status": "finalizado",
+    "data": "2025-06-03T19:57:17.377Z",
+    "dataEntrega": "2025-06-03",
     "formaPagamento": "Pix",
     "vendedor": "Guilherme Farias",
     "comissao": "10%",
-    "valorPedido": 200,
-    "total": 8,
+    "valorPedido": 3,
+    "total": 3,
     "itens": [
       {
-        "produtoId": 1,
-        "quantidade": 2,
-        "nome": "Água Crystal 500ml",
-        "preco": 2,
-        "subtotal": 4,
-        "precoFinal": 4
-      },
-      {
-        "produtoId": 2,
+        "produtoId": 3,
         "quantidade": 1,
-        "nome": "Coca-cola 600ml",
-        "preco": 4,
-        "subtotal": 4,
-        "precoFinal": 4
+        "nome": "Água Mineral 500ml",
+        "preco": 3,
+        "subtotal": 3,
+        "precoFinal": 3
       }
     ]
   },
   {
-    "id": 1748029419162,
+    "id": 1748982391242,
     "clienteId": 1,
     "clienteNome": "PackSeven",
     "status": "finalizado",
-    "data": "2025-05-23T19:43:39.162Z",
-    "dataEntrega": "2025-06-01",
+    "data": "2025-06-03T20:26:31.242Z",
+    "dataEntrega": "2025-06-03",
     "formaPagamento": "Pix",
     "vendedor": "Guilherme Farias",
     "comissao": "10%",
-    "valorPedido": 8,
-    "total": 8,
+    "valorPedido": 9,
+    "total": 9,
     "itens": [
       {
         "produtoId": 1,
-        "quantidade": 2,
-        "nome": "Água Crystal 500ml",
-        "preco": 2,
-        "subtotal": 4,
-        "precoFinal": 4
+        "quantidade": 1,
+        "nome": "Pepsi Cola 300ml",
+        "preco": 9,
+        "subtotal": 9,
+        "precoFinal": 9
+      }
+    ]
+  },
+  {
+    "id": 1748984802115,
+    "clienteId": 1,
+    "clienteNome": "PackSeven",
+    "status": "finalizado",
+    "data": "2025-06-03T21:06:42.115Z",
+    "dataEntrega": "2025-06-03",
+    "formaPagamento": "Pix",
+    "vendedor": "Guilherme Farias",
+    "comissao": "10%",
+    "valorPedido": 33,
+    "total": 33,
+    "itens": [
+      {
+        "produtoId": 1,
+        "quantidade": 1,
+        "nome": "Pepsi Cola 300ml",
+        "preco": 9,
+        "subtotal": 9,
+        "precoFinal": 9
       },
       {
         "produtoId": 2,
-        "quantidade": 1,
-        "nome": "Coca-cola 600ml",
-        "preco": 4,
-        "subtotal": 4,
-        "precoFinal": 4
+        "quantidade": 3,
+        "nome": "Coca-Cola 600ml",
+        "preco": 8,
+        "subtotal": 24,
+        "precoFinal": 24
       }
     ]
   }

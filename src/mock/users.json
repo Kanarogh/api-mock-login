@@ -2,7 +2,7 @@
   {
     "id": 4,
     "email": "jhonatas@teste.com",
-    "nome": "Nome Atualizado",
+    "nome": "Statum Tecnologia LTDA",
     "password": "123456"
   },
   {
@@ -15,6 +15,12 @@
     "id": 6,
     "email": "jhonatasteixeira1@outlook.com",
     "nome": "Jhonatas Teixeira",
-    "password": "$2b$10$a4VeraKm.Y2taNGeKSxeReM3n9rSJ0MpH3tsnJypHhHxC//FXNNMi"
+    "password": "$2b$10$WVz.y3sue3pDphnEOOAleu7KJIntfoaqFvCpWTsG/2jUeDsTUn7rK"
+  },
+  {
+    "id": 7,
+    "email": "jhonatas1@teste.com",
+    "nome": "Statum Tecnologia LTDA",
+    "password": "$2b$10$2g2yOi/tsigAUVZQWj8gv.EwytrVwNMwessGnBy9IPP2l/Jt7Tlwu"
   }
 ]

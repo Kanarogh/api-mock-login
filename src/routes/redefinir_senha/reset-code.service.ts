@@ -8,7 +8,7 @@ interface CodeEntry {
   expiresAt: number;
 }
 
-const CODES_FILE = path.resolve(__dirname, '../../src/mock/codes.json');
+const CODES_FILE = path.resolve(process.cwd(), 'src/mock/codes.json');
 
 @Injectable()
 export class ResetCodeService {

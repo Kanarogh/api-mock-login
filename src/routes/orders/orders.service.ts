@@ -3,11 +3,10 @@ import * as fs from 'fs';
 import * as path from 'path';
 import { CreateOrderDto } from './dto/create-order.dto';
 
-const ORDERS_FILE = path.resolve(__dirname, '../../src/mock/orders.json');
-const PRODUCTS_FILE = path.resolve(__dirname, '../../src/mock/products.json');
-const CLIENTS_FILE = path.resolve(__dirname, '../../src/mock/clients.json');
-const PREORDERS_FILE = path.resolve(__dirname, '../../src/mock/preorders.json');
-
+const PRODUCTS_FILE = path.resolve(process.cwd(), 'src/mock/products.json');
+const CLIENTS_FILE = path.resolve(process.cwd(), 'src/mock/clients.json');
+const ORDERS_FILE = path.resolve(process.cwd(), 'src/mock/orders.json');
+const PREORDERS_FILE = path.resolve(process.cwd(), 'src/mock/preorders.json');
 @Injectable()
 export class OrdersService {
   private readFile(file: string) {

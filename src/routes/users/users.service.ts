@@ -12,7 +12,8 @@ export interface User {
   password: string;
 }
 
-const USERS_FILE = path.resolve(__dirname, '../../src/mock/users.json');
+const USERS_FILE = path.resolve(process.cwd(), 'src/mock/users.json');
+
 
 @Injectable()
 export class UsersService implements OnModuleInit {

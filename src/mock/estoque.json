@@ -1,0 +1,87 @@
+[
+  {
+    "produtoId": 1,
+    "quantidadeEstoque": 65,
+    "dataReposicao": "2025-02-25",
+    "estadoMaisVendido": "São Paulo",
+    "estadoMenosVendido": "Goiás"
+  },
+  {
+    "produtoId": 2,
+    "quantidadeEstoque": 55,
+    "dataReposicao": "2025-06-04",
+    "estadoMaisVendido": "São Paulo",
+    "estadoMenosVendido": "Goiás"
+  },
+  {
+    "produtoId": 3,
+    "quantidadeEstoque": 55,
+    "dataReposicao": "2025-06-04",
+    "estadoMaisVendido": "São Paulo",
+    "estadoMenosVendido": "Goiás"
+  },
+  {
+    "produtoId": 4,
+    "quantidadeEstoque": 55,
+    "dataReposicao": "2025-06-04",
+    "estadoMaisVendido": "São Paulo",
+    "estadoMenosVendido": "Goiás"
+  },
+  {
+    "produtoId": 5,
+    "quantidadeEstoque": 55,
+    "dataReposicao": "2025-06-04",
+    "estadoMaisVendido": "São Paulo",
+    "estadoMenosVendido": "Goiás"
+  },
+  {
+    "produtoId": 6,
+    "quantidadeEstoque": 55,
+    "dataReposicao": "2025-06-04",
+    "estadoMaisVendido": "São Paulo",
+    "estadoMenosVendido": "Goiás"
+  },
+  {
+    "produtoId": 7,
+    "quantidadeEstoque": 55,
+    "dataReposicao": "2025-06-04",
+    "estadoMaisVendido": "São Paulo",
+    "estadoMenosVendido": "Goiás"
+  },
+  {
+    "produtoId": 8,
+    "quantidadeEstoque": 55,
+    "dataReposicao": "2025-06-04",
+    "estadoMaisVendido": "São Paulo",
+    "estadoMenosVendido": "Goiás"
+  },
+  {
+    "produtoId": 9,
+    "quantidadeEstoque": 55,
+    "dataReposicao": "2025-06-04",
+    "estadoMaisVendido": "São Paulo",
+    "estadoMenosVendido": "Goiás"
+  },
+  {
+    "produtoId": 10,
+    "quantidadeEstoque": 55,
+    "dataReposicao": "2025-06-04",
+    "estadoMaisVendido": "São Paulo",
+    "estadoMenosVendido": "Goiás"
+  },
+  {
+    "produtoId": 11,
+    "quantidadeEstoque": 55,
+    "dataReposicao": "2025-06-04",
+    "estadoMaisVendido": "São Paulo",
+    "estadoMenosVendido": "Goiás"
+  },
+  {
+    "produtoId": 12,
+    "quantidadeEstoque": 55,
+    "dataReposicao": "2025-06-04",
+    "estadoMaisVendido": "São Paulo",
+    "estadoMenosVendido": "Goiás"
+  }
+  
+]

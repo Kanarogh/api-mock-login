@@ -4,7 +4,7 @@ import * as fs from 'fs';
 import * as path from 'path';
 
 
-const PRODUCTS_FILE = path.resolve(__dirname, '../../src/mock/products.json');
+const PRODUCTS_FILE = path.resolve(process.cwd(), 'src/mock/products.json');
 
 
 
@@ -36,8 +36,10 @@ export class ProductsService {
     }
 
     const products = this.readProducts();
+    const newId = products.length ? Math.max(...products.map(p => p.id)) + 1 : 1;
+
     const newProduct = {
-      id: Date.now(),
+      id: newId,
       ...product,
       jaFoiComprado: false,
       quantidade: 0,

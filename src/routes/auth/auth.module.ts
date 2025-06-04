@@ -3,8 +3,8 @@ import { AuthService } from './auth.service';
 import { AuthController } from './auth.controller';
 import { JwtModule } from '@nestjs/jwt';
 import { UsersModule } from '../users/users.module';
-import { MailerService } from 'src/redefinir_senha/nodemailer/mailer.service';
-import { ResetCodeModule } from 'src/redefinir_senha/reset-code.module';
+import { MailerService } from 'src/routes/redefinir_senha/nodemailer/mailer.service';
+import { ResetCodeModule } from 'src/routes/redefinir_senha/reset-code.module';
 import { JwtStrategy } from './jwt.strategy'; // ✅ importar a strategy
 import { PassportModule } from '@nestjs/passport'; // ✅ importar passport
 

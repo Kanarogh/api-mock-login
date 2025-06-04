@@ -3,7 +3,7 @@ import * as fs from 'fs';
 import * as path from 'path';
 import { CreatePreorderDto } from './dto/create-preorder.dto';
 
-const PREORDERS_FILE = path.resolve(__dirname, '../../src/mock/preorders.json');
+const PREORDERS_FILE = path.resolve(process.cwd(), 'src/mock/preorders.json');
 
 @Injectable()
 export class PreordersService {

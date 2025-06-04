@@ -1,12 +1,13 @@
 import { Module } from '@nestjs/common';
 import { AppController } from './app.controller';
 import { AppService } from './app.service';
-import { AuthModule } from './auth/auth.module';
-import { UsersModule } from './users/users.module';
-import { ProductsModule } from './products/products.module';
-import { ClientsModule } from './clients/clients.module';
-import { OrdersModule } from './orders/orders.module';
-import { PreordersModule } from './preorders/preorders.module';
+import { AuthModule } from './routes/auth/auth.module';
+import { UsersModule } from './routes/users/users.module';
+import { ProductsModule } from './routes/products/products.module';
+import { ClientsModule } from './routes/clients/clients.module';
+import { OrdersModule } from './routes/orders/orders.module';
+import { PreordersModule } from './routes/preorders/preorders.module';
+import { EstoqueModule } from './routes/estoque/estoque.module';
 
 @Module({
   imports: [
@@ -16,6 +17,7 @@ import { PreordersModule } from './preorders/preorders.module';
     ClientsModule,
     OrdersModule, 
     PreordersModule,
+    EstoqueModule
   ],
   controllers: [AppController],
   providers: [AppService],
