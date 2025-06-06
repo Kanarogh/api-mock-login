@@ -12,5 +12,47 @@
     "cnpj": "12.345.678/0001-90",
     "email": "contato@packseven.com",
     "telefone": "(35) 99999-9999"
+  },
+    {
+    "id": 3,
+    "nome": "Florarte",
+    "cnpj": "11.111.111/0001-11",
+    "email": "contato@florarte.com.br",
+    "telefone": "(11) 98888-0000"
+  },
+  {
+    "id": 4,
+    "nome": "Doces Mirim",
+    "cnpj": "22.222.222/0001-22",
+    "email": "contato@docesmirim.com",
+    "telefone": "(21) 97777-1111"
+  },
+  {
+    "id": 5,
+    "nome": "Refrigel",
+    "cnpj": "33.333.333/0001-33",
+    "email": "suporte@refrigel.com",
+    "telefone": "(31) 96666-2222"
+  },
+  {
+    "id": 6,
+    "nome": "Superfácil Atacado",
+    "cnpj": "44.444.444/0001-44",
+    "email": "vendas@superfacil.com",
+    "telefone": "(41) 95555-3333"
+  },
+  {
+    "id": 7,
+    "nome": "Papelaria Nova Era",
+    "cnpj": "55.555.555/0001-55",
+    "email": "contato@novaera.com.br",
+    "telefone": "(51) 94444-4444"
+  },
+  {
+    "id": 8,
+    "nome": "Café Colonial",
+    "cnpj": "66.666.666/0001-66",
+    "email": "atendimento@cafecolonial.com",
+    "telefone": "(61) 93333-5555"
   }
 ]

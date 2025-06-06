@@ -4,7 +4,7 @@
     "clienteId": 2,
     "clienteNome": "Noroeste",
     "status": "finalizado",
-    "data": "2025-06-02T21:28:00.814Z",
+    "data": "2025-05-01T12:00:00.000Z",
     "dataEntrega": "2025-06-01",
     "formaPagamento": "Cartão de Crédito",
     "vendedor": "Guilherme Farias",
@@ -51,7 +51,7 @@
     "clienteId": 1,
     "clienteNome": "PackSeven",
     "status": "finalizado",
-    "data": "2025-06-02T21:28:41.776Z",
+    "data": "2025-03-01T12:00:00.000Z",
     "dataEntrega": "2025-06-01",
     "formaPagamento": "Pix",
     "vendedor": "Jhonatas Teixeira",
@@ -74,7 +74,7 @@
     "clienteId": 1,
     "clienteNome": "PackSeven",
     "status": "finalizado",
-    "data": "2025-06-03T19:57:17.377Z",
+    "data": "2025-05-01T12:00:00.000Z",
     "dataEntrega": "2025-06-03",
     "formaPagamento": "Pix",
     "vendedor": "Guilherme Farias",
@@ -97,7 +97,7 @@
     "clienteId": 1,
     "clienteNome": "PackSeven",
     "status": "finalizado",
-    "data": "2025-06-03T20:26:31.242Z",
+    "data": "2025-03-01T12:00:00.000Z",
     "dataEntrega": "2025-06-03",
     "formaPagamento": "Pix",
     "vendedor": "Guilherme Farias",
@@ -143,6 +143,161 @@
         "preco": 8,
         "subtotal": 24,
         "precoFinal": 24
+      }
+    ]
+  },
+  {
+    "id": 1749142024591,
+    "clienteId": 1,
+    "clienteNome": "PackSeven",
+    "status": "finalizado",
+    "data": "2025-06-05T16:47:04.591Z",
+    "dataEntrega": "2025-05-01",
+    "formaPagamento": "Pix",
+    "vendedor": "Guilherme Farias",
+    "comissao": "10%",
+    "valorPedido": 60,
+    "total": 60,
+    "itens": [
+      {
+        "produtoId": 4,
+        "quantidade": 5,
+        "nome": "Guaraná Antárctica 2L",
+        "preco": 10,
+        "subtotal": 50,
+        "precoFinal": 50
+      },
+      {
+        "produtoId": 5,
+        "quantidade": 2,
+        "nome": "Fanta Laranja 350ml",
+        "preco": 5,
+        "subtotal": 10,
+        "precoFinal": 10
+      }
+    ]
+  },
+  {
+    "id": 1749142059548,
+    "clienteId": 1,
+    "clienteNome": "PackSeven",
+    "status": "finalizado",
+    "data": "2025-06-05T16:47:39.548Z",
+    "dataEntrega": "2025-04-01",
+    "formaPagamento": "Pix",
+    "vendedor": "Jhonatas Teixeira",
+    "comissao": "10%",
+    "valorPedido": 60,
+    "total": 60,
+    "itens": [
+      {
+        "produtoId": 4,
+        "quantidade": 5,
+        "nome": "Guaraná Antárctica 2L",
+        "preco": 10,
+        "subtotal": 50,
+        "precoFinal": 50
+      },
+      {
+        "produtoId": 5,
+        "quantidade": 2,
+        "nome": "Fanta Laranja 350ml",
+        "preco": 5,
+        "subtotal": 10,
+        "precoFinal": 10
+      }
+    ]
+  },
+  {
+    "id": 1749142075540,
+    "clienteId": 1,
+    "clienteNome": "PackSeven",
+    "status": "finalizado",
+    "data": "2025-06-05T16:47:55.540Z",
+    "dataEntrega": "2025-03-01",
+    "formaPagamento": "Pix",
+    "vendedor": "Jhonatas Teixeira",
+    "comissao": "10%",
+    "valorPedido": 38,
+    "total": 38,
+    "itens": [
+      {
+        "produtoId": 6,
+        "quantidade": 5,
+        "nome": "Sprite 1L",
+        "preco": 6,
+        "subtotal": 30,
+        "precoFinal": 30
+      },
+      {
+        "produtoId": 7,
+        "quantidade": 2,
+        "nome": "Água com Gás 500ml",
+        "preco": 4,
+        "subtotal": 8,
+        "precoFinal": 8
+      }
+    ]
+  },
+  {
+    "id": 1749142093976,
+    "clienteId": 1,
+    "clienteNome": "PackSeven",
+    "status": "finalizado",
+    "data": "2025-06-05T16:48:13.976Z",
+    "dataEntrega": "2025-01-01",
+    "formaPagamento": "Pix",
+    "vendedor": "Jhonatas Teixeira",
+    "comissao": "10%",
+    "valorPedido": 80,
+    "total": 80,
+    "itens": [
+      {
+        "produtoId": 8,
+        "quantidade": 5,
+        "nome": "Monster Energy",
+        "preco": 12,
+        "subtotal": 60,
+        "precoFinal": 60
+      },
+      {
+        "produtoId": 9,
+        "quantidade": 2,
+        "nome": "Red Bull 250ml",
+        "preco": 10,
+        "subtotal": 20,
+        "precoFinal": 20
+      }
+    ]
+  },
+  {
+    "id": 1749142349462,
+    "clienteId": 3,
+    "clienteNome": "Florarte",
+    "status": "finalizado",
+    "data": "2025-03-01T12:00:00.000Z",
+    "dataEntrega": "2025-01-01",
+    "formaPagamento": "Pix",
+    "vendedor": "Jhonatas Teixeira",
+    "comissao": "10%",
+    "valorPedido": 80,
+    "total": 80,
+    "itens": [
+      {
+        "produtoId": 8,
+        "quantidade": 5,
+        "nome": "Monster Energy",
+        "preco": 12,
+        "subtotal": 60,
+        "precoFinal": 60
+      },
+      {
+        "produtoId": 9,
+        "quantidade": 2,
+        "nome": "Red Bull 250ml",
+        "preco": 10,
+        "subtotal": 20,
+        "precoFinal": 20
       }
     ]
   }

@@ -8,6 +8,7 @@ import { ClientsModule } from './routes/clients/clients.module';
 import { OrdersModule } from './routes/orders/orders.module';
 import { PreordersModule } from './routes/preorders/preorders.module';
 import { EstoqueModule } from './routes/estoque/estoque.module';
+import { ClienteSemaforoModule } from './routes/cliente-semaforo/cliente-semaforo.module';
 
 @Module({
   imports: [
@@ -17,7 +18,8 @@ import { EstoqueModule } from './routes/estoque/estoque.module';
     ClientsModule,
     OrdersModule, 
     PreordersModule,
-    EstoqueModule
+    EstoqueModule,
+    ClienteSemaforoModule
   ],
   controllers: [AppController],
   providers: [AppService],
