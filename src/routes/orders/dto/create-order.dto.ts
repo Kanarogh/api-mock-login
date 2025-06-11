@@ -9,5 +9,4 @@ export class CreateOrderDto {
   formaPagamento?: string;
   vendedor?: string;
   comissao?: string;
- 
 }

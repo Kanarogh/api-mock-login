@@ -1,29 +1,25 @@
 import { Injectable, UnauthorizedException } from '@nestjs/common';
 import { PassportStrategy } from '@nestjs/passport';
 import { ExtractJwt, Strategy } from 'passport-jwt';
-import { UsersService } from '../users/users.service';
 
 @Injectable()
 export class JwtStrategy extends PassportStrategy(Strategy) {
-  constructor(private readonly usersService: UsersService) {
+  constructor() { // Não precisamos mais do UsersService aqui
     super({
       jwtFromRequest: ExtractJwt.fromAuthHeaderAsBearerToken(),
       ignoreExpiration: false,
-      secretOrKey: 'jwt_secret', // ou process.env.JWT_SECRET
+      secretOrKey: 'jwt_secret', // Lembre-se de usar variáveis de ambiente para isso
     });
   }
 
   async validate(payload: any) {
-    const user = await this.usersService.findById(payload.sub); // sub = id
-
-    if (!user) {
-      throw new UnauthorizedException('Usuário não existe mais');
-    }
-
+    // O 'payload' é o conteúdo decodificado e confiável do seu token.
+    // Ele já tem tudo que precisamos.
     return {
-      userId: user.id,
-      email: user.email,
-      nome: user.nome,
+      id: payload.id,           // ID do usuário logado
+      empresaId: payload.empresaId, // ID da empresa à qual ele pertence
+      email: payload.email,
+      nome: payload.nome,
     };
   }
 }

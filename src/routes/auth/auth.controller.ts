@@ -3,12 +3,15 @@ import { AuthService } from './auth.service';
 import { ResetCodeService } from 'src/routes/redefinir_senha/reset-code.service';
 import { MailerService } from 'src/routes/redefinir_senha/nodemailer/mailer.service';
 import { ResetPasswordDto } from 'src/routes/redefinir_senha/dto/reset-password.dto';
-
+import { CreateUserDto } from '../users/dto/create-user.dto'; // 1. Importar o DTO de criação de usuário
 
 @Controller('auth')
 export class AuthController {
-  constructor(private authService: AuthService, private resetCodeService: ResetCodeService,
-    private mailerService: MailerService,) {}
+  constructor(
+    private authService: AuthService, 
+    private resetCodeService: ResetCodeService,
+    private mailerService: MailerService,
+  ) {}
 
   @Post('login')
   @HttpCode(200)
@@ -20,9 +23,13 @@ export class AuthController {
     return this.authService.login(user);
   }
 
+  /**
+   * CORREÇÃO: A rota de registro agora espera o DTO completo no corpo
+   * da requisição, que inclui o `empresaId`.
+   */
   @Post('register')
-  async register(@Body() body: { email: string; password: string , nome: string}) {
-    return this.authService.register(body.email, body.password, body.nome);
+  async register(@Body() createUserDto: CreateUserDto) {
+    return this.authService.register(createUserDto);
   }
 
   @Post('forgot-password')

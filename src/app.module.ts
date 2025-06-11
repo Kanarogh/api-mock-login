@@ -9,6 +9,7 @@ import { OrdersModule } from './routes/orders/orders.module';
 import { PreordersModule } from './routes/preorders/preorders.module';
 import { EstoqueModule } from './routes/estoque/estoque.module';
 import { ClienteSemaforoModule } from './routes/cliente-semaforo/cliente-semaforo.module';
+import { EmpresasModule } from './routes/empresas/empresas.module';
 
 @Module({
   imports: [
@@ -19,7 +20,8 @@ import { ClienteSemaforoModule } from './routes/cliente-semaforo/cliente-semafor
     OrdersModule, 
     PreordersModule,
     EstoqueModule,
-    ClienteSemaforoModule
+    ClienteSemaforoModule,
+    EmpresasModule
   ],
   controllers: [AppController],
   providers: [AppService],

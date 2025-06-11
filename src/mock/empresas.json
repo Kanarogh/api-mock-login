@@ -1,0 +1,17 @@
+[
+  {
+    "id": 1,
+    "nome": "Tech LTDA",
+    "cnpj": "11.111.111/0001-11"
+  },
+  {
+    "id": 2,
+    "nome": "Comércio Varejista S.A.",
+    "cnpj": "22.222.222/0001-22"
+  },
+  {
+    "id": 3,
+    "nome": "Statum Tecnologia LTDA",
+    "cnpj": "33.333.333/0001-33"
+  }
+]

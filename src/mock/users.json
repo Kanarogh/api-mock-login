@@ -1,26 +1,51 @@
 [
   {
     "id": 4,
+    "empresaId": 1,
     "email": "jhonatas@teste.com",
     "nome": "Statum Tecnologia LTDA",
     "password": "123456"
   },
   {
     "id": 5,
+    "empresaId": 1,
     "email": "jhonatas2@gmail.com",
     "nome": "Jhonatas",
     "password": "$2b$10$Ty4gqRqM3VTMUWtgklNdxuoG4l5xjj8Wh6SaUhBBj.k5E3emfjlB6"
   },
   {
     "id": 6,
+    "empresaId": 1,
     "email": "jhonatasteixeira1@outlook.com",
     "nome": "Jhonatas Teixeira",
     "password": "$2b$10$WVz.y3sue3pDphnEOOAleu7KJIntfoaqFvCpWTsG/2jUeDsTUn7rK"
   },
   {
     "id": 7,
+    "empresaId": 2,
     "email": "jhonatas1@teste.com",
     "nome": "Statum Tecnologia LTDA",
     "password": "$2b$10$2g2yOi/tsigAUVZQWj8gv.EwytrVwNMwessGnBy9IPP2l/Jt7Tlwu"
+  },
+  {
+    "id": 8,
+    "empresaId": 1,
+    "email": "jhonatas2@teste.com",
+    "nome": "Jhow Tech LTDA",
+    "password": "$2b$10$hCWQTu0MIQqF65vJVfJHoe6UbE/wgrbsg1oLnSo.wY8nGTMTRpJAW"
+  },
+  {
+    "id": 9,
+    "empresaId": 3,
+    "email": "jhonatas3@teste.com",
+    "nome": "Tech LTDA",
+    "password": "$2b$10$DSra1J5L3hWfqaM7UbSl6eMOSQhjXZK9q24AYlXc8dQtpfkgLYhBq"
+  },
+  {
+    "id": 10,
+    "email": "jhonatas4@teste.com",
+    "nome": "Jhonatas Teixeira",
+    "empresaId": 2,
+    "password": "$2b$10$09GhQf65nPxVSxni.OUlsunKf7Q.Rn0LuFu.vXB6C2XCdUxyDN/Je"
   }
 ]

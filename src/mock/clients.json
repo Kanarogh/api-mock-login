@@ -1,6 +1,7 @@
 [
   {
     "id": 1,
+    "empresaId": 1,
     "nome": "PackSeven",
     "cnpj": "12.345.678/0001-90",
     "email": "contato@packseven.com",
@@ -8,6 +9,7 @@
   },
   {
     "id": 2,
+    "empresaId": 1,
     "nome": "Noroeste",
     "cnpj": "12.345.678/0001-90",
     "email": "contato@packseven.com",
@@ -15,6 +17,7 @@
   },
     {
     "id": 3,
+    "empresaId": 1,
     "nome": "Florarte",
     "cnpj": "11.111.111/0001-11",
     "email": "contato@florarte.com.br",
@@ -22,6 +25,7 @@
   },
   {
     "id": 4,
+    "empresaId": 1,
     "nome": "Doces Mirim",
     "cnpj": "22.222.222/0001-22",
     "email": "contato@docesmirim.com",
@@ -29,6 +33,7 @@
   },
   {
     "id": 5,
+    "empresaId": 2,
     "nome": "Refrigel",
     "cnpj": "33.333.333/0001-33",
     "email": "suporte@refrigel.com",
@@ -36,6 +41,7 @@
   },
   {
     "id": 6,
+    "empresaId": 2,
     "nome": "Superfácil Atacado",
     "cnpj": "44.444.444/0001-44",
     "email": "vendas@superfacil.com",
@@ -43,6 +49,7 @@
   },
   {
     "id": 7,
+    "empresaId": 3,
     "nome": "Papelaria Nova Era",
     "cnpj": "55.555.555/0001-55",
     "email": "contato@novaera.com.br",
@@ -50,6 +57,7 @@
   },
   {
     "id": 8,
+    "empresaId": 3,
     "nome": "Café Colonial",
     "cnpj": "66.666.666/0001-66",
     "email": "atendimento@cafecolonial.com",

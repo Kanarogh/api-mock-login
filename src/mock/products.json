@@ -1,6 +1,7 @@
 [
   {
     "id": 1,
+    "empresaId": 1,
     "nome": "Pepsi Cola 300ml",
     "preco": 9,
     "imposto1": 0.5,
@@ -11,6 +12,7 @@
   },
   {
     "id": 2,
+    "empresaId": 1,
     "nome": "Coca-Cola 600ml",
     "preco": 8,
     "imposto1": 0.4,
@@ -21,6 +23,7 @@
   },
   {
     "id": 3,
+    "empresaId": 1,
     "nome": "Água Mineral 500ml",
     "preco": 3,
     "imposto1": 0.1,
@@ -31,6 +34,7 @@
   },
   {
     "id": 4,
+    "empresaId": 1,
     "nome": "Guaraná Antárctica 2L",
     "preco": 10,
     "imposto1": 0.6,
@@ -41,6 +45,7 @@
   },
   {
     "id": 5,
+    "empresaId": 2,
     "nome": "Fanta Laranja 350ml",
     "preco": 5,
     "imposto1": 0.3,
@@ -51,6 +56,7 @@
   },
   {
     "id": 6,
+    "empresaId": 2,
     "nome": "Sprite 1L",
     "preco": 6,
     "imposto1": 0.4,
@@ -61,6 +67,7 @@
   },
   {
     "id": 7,
+    "empresaId": 2,
     "nome": "Água com Gás 500ml",
     "preco": 4,
     "imposto1": 0.2,
@@ -71,6 +78,7 @@
   },
   {
     "id": 8,
+    "empresaId": 2,
     "nome": "Monster Energy",
     "preco": 12,
     "imposto1": 1,
@@ -81,6 +89,7 @@
   },
   {
     "id": 9,
+    "empresaId": 3,
     "nome": "Red Bull 250ml",
     "preco": 10,
     "imposto1": 0.8,
@@ -91,6 +100,7 @@
   },
   {
     "id": 10,
+    "empresaId": 3,
     "nome": "Gatorade 500ml",
     "preco": 7,
     "imposto1": 0.4,
@@ -101,6 +111,7 @@
   },
   {
     "id": 11,
+    "empresaId": 3,
     "nome": "Chá gelado Pêssego 1L",
     "preco": 6,
     "imposto1": 0.3,
@@ -111,11 +122,23 @@
   },
   {
     "id": 12,
+    "empresaId": 3,
     "nome": "Suco de Laranja Natural 300ml",
     "preco": 7,
     "imposto1": 0.5,
     "imposto2": 0.8,
     "custo": 3.2,
+    "jaFoiComprado": false,
+    "quantidade": 0
+  },
+  {
+    "id": 13,
+    "empresaId": 3,
+    "nome": "Pepsi Cola ZERO 300ml",
+    "preco": 9,
+    "imposto1": 0.5,
+    "imposto2": 1,
+    "custo": 2.5,
     "jaFoiComprado": false,
     "quantidade": 0
   }

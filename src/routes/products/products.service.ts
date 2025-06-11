@@ -3,34 +3,30 @@ import { CreateProductDto } from './dto/create-product.dto';
 import * as fs from 'fs';
 import * as path from 'path';
 
-
 const PRODUCTS_FILE = path.resolve(process.cwd(), 'src/mock/products.json');
-
-
 
 @Injectable()
 export class ProductsService {
   private readProducts() {
-    try {
-      return JSON.parse(fs.readFileSync(PRODUCTS_FILE, 'utf-8'));
-    } catch {
-      throw new BadRequestException('Erro ao ler a base de produtos');
+    if (!fs.existsSync(PRODUCTS_FILE)) {
+      this.writeProducts([]);
     }
+    return JSON.parse(fs.readFileSync(PRODUCTS_FILE, 'utf-8') || '[]');
   }
 
   private writeProducts(data: any) {
-    try {
-      fs.writeFileSync(PRODUCTS_FILE, JSON.stringify(data, null, 2));
-    } catch {
-      throw new BadRequestException('Erro ao salvar os produtos');
-    }
+    fs.writeFileSync(PRODUCTS_FILE, JSON.stringify(data, null, 2));
   }
 
-  findAll() {
-    return this.readProducts();
+  findAll(empresaId: number) {
+    const products = this.readProducts();
+    return products.filter(p => p.empresaId === empresaId);
   }
+  
+  // Note que não há findById no seu controller, mas se houvesse,
+  // você deveria adicionar a verificação de empresaId nele também.
 
-  create(product: CreateProductDto) {
+  create(product: CreateProductDto, empresaId: number) {
     if (!product.nome || !product.preco) {
       throw new BadRequestException('Nome e preço são obrigatórios');
     }
@@ -40,6 +36,7 @@ export class ProductsService {
 
     const newProduct = {
       id: newId,
+      empresaId: empresaId, // <-- Carimba o novo produto com o ID da empresa
       ...product,
       jaFoiComprado: false,
       quantidade: 0,
@@ -49,11 +46,16 @@ export class ProductsService {
     return newProduct;
   }
 
-  update(id: number, update: Partial<CreateProductDto>) {
+  update(id: number, update: Partial<CreateProductDto>, empresaId: number) {
     const products = this.readProducts();
     const index = products.findIndex(p => p.id === id);
     if (index === -1) {
       throw new NotFoundException(`Produto com ID ${id} não encontrado`);
+    }
+    
+    // Verifica se o produto pertence à empresa que está tentando editar
+    if (products[index].empresaId !== empresaId) {
+        throw new NotFoundException(`Produto com ID ${id} não encontrado`);
     }
 
     products[index] = { ...products[index], ...update };
@@ -61,10 +63,11 @@ export class ProductsService {
     return products[index];
   }
 
-  delete(id: number) {
+  delete(id: number, empresaId: number) {
     const products = this.readProducts();
-    const exists = products.find(p => p.id === id);
-    if (!exists) {
+    const productToDelete = products.find(p => p.id === id && p.empresaId === empresaId);
+    
+    if (!productToDelete) {
       throw new NotFoundException(`Produto com ID ${id} não encontrado`);
     }
 
