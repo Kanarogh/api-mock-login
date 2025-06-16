@@ -1,12 +1,5 @@
 [
   {
-    "id": 4,
-    "empresaId": 1,
-    "email": "jhonatas@teste.com",
-    "nome": "Statum Tecnologia LTDA",
-    "password": "123456"
-  },
-  {
     "id": 5,
     "empresaId": 1,
     "email": "jhonatas2@gmail.com",
@@ -31,7 +24,7 @@
     "id": 8,
     "empresaId": 1,
     "email": "jhonatas2@teste.com",
-    "nome": "Jhow Tech LTDA",
+    "nome": "Jhonatas Moreira Teixeira",
     "password": "$2b$10$hCWQTu0MIQqF65vJVfJHoe6UbE/wgrbsg1oLnSo.wY8nGTMTRpJAW"
   },
   {

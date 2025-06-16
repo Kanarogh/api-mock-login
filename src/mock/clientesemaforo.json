@@ -1,1 +1,74 @@
-[]
+[
+  {
+    "empresaId": 1,
+    "clienteId": 1,
+    "nome": "PackSeven",
+    "status": "amarelo",
+    "diasUltimoPedido": 31,
+    "valorUltimoPedido": 52,
+    "totalPedidos": 1
+  },
+  {
+    "empresaId": 1,
+    "clienteId": 2,
+    "nome": "Noroeste",
+    "status": "verde",
+    "diasUltimoPedido": 0,
+    "valorUltimoPedido": 53,
+    "totalPedidos": 1
+  },
+  {
+    "empresaId": 1,
+    "clienteId": 3,
+    "nome": "Florarte",
+    "status": "vermelho",
+    "diasUltimoPedido": 61,
+    "valorUltimoPedido": 30,
+    "totalPedidos": 1
+  },
+  {
+    "empresaId": 1,
+    "clienteId": 4,
+    "nome": "Doces Mirim",
+    "status": "cinza",
+    "diasUltimoPedido": null,
+    "valorUltimoPedido": null,
+    "totalPedidos": 0
+  },
+  {
+    "empresaId": 2,
+    "clienteId": 5,
+    "nome": "Refrigel",
+    "status": "cinza",
+    "diasUltimoPedido": null,
+    "valorUltimoPedido": null,
+    "totalPedidos": 0
+  },
+  {
+    "empresaId": 2,
+    "clienteId": 6,
+    "nome": "Superfácil Atacado",
+    "status": "cinza",
+    "diasUltimoPedido": null,
+    "valorUltimoPedido": null,
+    "totalPedidos": 0
+  },
+  {
+    "empresaId": 3,
+    "clienteId": 7,
+    "nome": "Papelaria Nova Era",
+    "status": "verde",
+    "diasUltimoPedido": 3,
+    "valorUltimoPedido": 21,
+    "totalPedidos": 3
+  },
+  {
+    "empresaId": 3,
+    "clienteId": 8,
+    "nome": "Café Colonial",
+    "status": "verde",
+    "diasUltimoPedido": 0,
+    "valorUltimoPedido": 27,
+    "totalPedidos": 2
+  }
+]

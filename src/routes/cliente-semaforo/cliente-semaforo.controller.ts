@@ -1,4 +1,4 @@
-import { Controller, Get, UseGuards } from '@nestjs/common';
+import { Controller, Get, UseGuards, Req } from '@nestjs/common';
 import { ClienteSemaforoService } from './cliente-semaforo.service';
 import { AuthGuard } from '@nestjs/passport';
 
@@ -7,9 +7,9 @@ import { AuthGuard } from '@nestjs/passport';
 export class ClienteSemaforoController {
   constructor(private readonly service: ClienteSemaforoService) {}
 
-@Get()
-listar() {
-  return this.service.findStatusClientes();
-}
-
+  @Get()
+  listar(@Req() req) {
+    const empresaId = req.user.empresaId;
+    return this.service.findStatusClientes(empresaId);
+  }
 }

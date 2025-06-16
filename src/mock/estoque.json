@@ -2,7 +2,7 @@
   {
     "empresaId": 1,
     "produtoId": 1,
-    "quantidadeEstoque": 65,
+    "quantidadeEstoque": 62,
     "dataReposicao": "2025-02-25",
     "estadoMaisVendido": "São Paulo",
     "estadoMenosVendido": "Goiás"
@@ -10,7 +10,7 @@
   {
     "empresaId": 1,
     "produtoId": 2,
-    "quantidadeEstoque": 55,
+    "quantidadeEstoque": 52,
     "dataReposicao": "2025-06-04",
     "estadoMaisVendido": "São Paulo",
     "estadoMenosVendido": "Goiás"
@@ -18,7 +18,7 @@
   {
     "empresaId": 1,
     "produtoId": 3,
-    "quantidadeEstoque": 55,
+    "quantidadeEstoque": 47,
     "dataReposicao": "2025-06-04",
     "estadoMaisVendido": "São Paulo",
     "estadoMenosVendido": "Goiás"
@@ -26,7 +26,7 @@
   {
     "empresaId": 1,
     "produtoId": 4,
-    "quantidadeEstoque": 55,
+    "quantidadeEstoque": 49,
     "dataReposicao": "2025-06-04",
     "estadoMaisVendido": "São Paulo",
     "estadoMenosVendido": "Goiás"
@@ -66,7 +66,7 @@
   {
     "empresaId": 3,
     "produtoId": 9,
-    "quantidadeEstoque": 50,
+    "quantidadeEstoque": 46,
     "dataReposicao": "2025-06-04",
     "estadoMaisVendido": "São Paulo",
     "estadoMenosVendido": "Goiás"
@@ -74,7 +74,7 @@
   {
     "empresaId": 3,
     "produtoId": 10,
-    "quantidadeEstoque": 53,
+    "quantidadeEstoque": 49,
     "dataReposicao": "2025-06-04",
     "estadoMaisVendido": "São Paulo",
     "estadoMenosVendido": "Goiás"
@@ -88,9 +88,9 @@
     "estadoMenosVendido": "Goiás"
   },
   {
-    "empresaId": 1,
+    "empresaId": 3,
     "produtoId": 12,
-    "quantidadeEstoque": 53,
+    "quantidadeEstoque": 50,
     "dataReposicao": "2025-06-04",
     "estadoMaisVendido": "São Paulo",
     "estadoMenosVendido": "Goiás"
