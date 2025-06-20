@@ -24,13 +24,21 @@ export class ClientsService {
     return clients.filter(c => c.empresaId === empresaId);
   }
 
-  findById(id: number, empresaId: number) {
+ findById(id: number, empresaId: number) {
     const clients = this.readClients();
-    const client = clients.find(c => c.id === id);
 
-    if (!client || client.empresaId !== empresaId) {
-      throw new NotFoundException(`Cliente ${id} não encontrado`);
+    // ✅ CORREÇÃO APLICADA AQUI
+    // A busca agora exige que AMBOS, id e empresaId, correspondam na mesma condição.
+    const client = clients.find(c => c.id === id && c.empresaId === empresaId);
+
+    // Agora, se o cliente não for encontrado, é 100% de certeza que ou o ID não existe
+    // ou ele não pertence à empresa do usuário logado. A mensagem de erro fica mais precisa.
+    if (!client) {
+      throw new NotFoundException(
+        `Cliente com ID ${id} não encontrado ou não pertence a esta empresa.`,
+      );
     }
+
     return client;
   }
 
@@ -59,5 +67,10 @@ export class ClientsService {
     const updated = clients.filter(c => c.id !== id);
     this.writeClients(updated);
     return { deleted: true };
+  }
+   findAllWithAllData() {
+    // Este método simplesmente lê e retorna todos os clientes.
+    // Útil para outros serviços que precisam de acesso a todos os dados.
+    return this.readClients();
   }
 }

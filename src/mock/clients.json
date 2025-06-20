@@ -2,65 +2,81 @@
   {
     "id": 1,
     "empresaId": 1,
-    "nome": "PackSeven",
-    "cnpj": "12.345.678/0001-90",
-    "email": "contato@packseven.com",
-    "telefone": "(35) 99999-0000"
+    "nome": "Supermercado Central",
+    "cnpj": "11.111.111/0001-11",
+    "email": "contato@central.com",
+    "telefone": "(35) 3265-1111",
+    "latitude": -21.36551,
+    "longitude": -45.51201
   },
   {
     "id": 2,
     "empresaId": 1,
-    "nome": "Noroeste",
-    "cnpj": "12.345.678/0001-90",
-    "email": "contato@packseven.com",
-    "telefone": "(35) 99999-9999"
+    "nome": "Magazine Luiza",
+    "cnpj": "22.222.222/0001-22",
+    "email": "loja@magalu.com",
+    "telefone": "(35) 3265-2222",
+    "latitude": -21.36605,
+    "longitude": -45.51103
   },
-    {
+  {
     "id": 3,
     "empresaId": 1,
-    "nome": "Florarte",
-    "cnpj": "11.111.111/0001-11",
-    "email": "contato@florarte.com.br",
-    "telefone": "(11) 98888-0000"
+    "nome": "Padaria Pão de Ouro",
+    "cnpj": "33.333.333/0001-33",
+    "email": "contato@paodeouro.com",
+    "telefone": "(35) 3265-3333",
+    "latitude": -21.36502,
+    "longitude": -45.51255
   },
   {
     "id": 4,
     "empresaId": 1,
-    "nome": "Doces Mirim",
-    "cnpj": "22.222.222/0001-22",
-    "email": "contato@docesmirim.com",
-    "telefone": "(21) 97777-1111"
+    "nome": "Drogaria Trespontana",
+    "cnpj": "44.444.444/0001-44",
+    "email": "contato@drogariatp.com",
+    "telefone": "(35) 3265-4444",
+    "latitude": -21.36981,
+    "longitude": -45.51352
   },
   {
     "id": 5,
     "empresaId": 2,
-    "nome": "Refrigel",
-    "cnpj": "33.333.333/0001-33",
-    "email": "suporte@refrigel.com",
-    "telefone": "(31) 96666-2222"
+    "nome": "Cooperativa Cooxupé",
+    "cnpj": "55.555.555/0001-55",
+    "email": "sac@cooxupe.com.br",
+    "telefone": "(35) 3266-9300",
+    "latitude": -21.37801,
+    "longitude": -45.52003
   },
   {
     "id": 6,
     "empresaId": 2,
-    "nome": "Superfácil Atacado",
-    "cnpj": "44.444.444/0001-44",
-    "email": "vendas@superfacil.com",
-    "telefone": "(41) 95555-3333"
+    "nome": "Depósito de Construção",
+    "cnpj": "66.666.666/0001-66",
+    "email": "vendas@deposito.com",
+    "telefone": "(35) 3265-6666",
+    "latitude": -21.37750,
+    "longitude": -45.51950
   },
   {
     "id": 7,
     "empresaId": 3,
-    "nome": "Papelaria Nova Era",
-    "cnpj": "55.555.555/0001-55",
-    "email": "contato@novaera.com.br",
-    "telefone": "(51) 94444-4444"
+    "nome": "Restaurante Sabor da Terra",
+    "cnpj": "77.777.777/0001-77",
+    "email": "contato@sabordaterra.com",
+    "telefone": "(35) 3265-7777",
+    "latitude": -21.36301,
+    "longitude": -45.50892
   },
   {
     "id": 8,
     "empresaId": 3,
-    "nome": "Café Colonial",
-    "cnpj": "66.666.666/0001-66",
-    "email": "atendimento@cafecolonial.com",
-    "telefone": "(61) 93333-5555"
+    "nome": "Loja de Roupas Estilo",
+    "cnpj": "88.888.888/0001-88",
+    "email": "atendimento@estilo.com",
+    "telefone": "(35) 3265-8888",
+    "latitude": -21.36451,
+    "longitude": -45.51401
   }
 ]

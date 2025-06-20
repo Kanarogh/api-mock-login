@@ -1,0 +1,56 @@
+[
+  {
+    "id": 1,
+    "atendimentoId": 1,
+    "tipo": "check-in",
+    "timestamp": "2025-06-20T19:23:32.756Z"
+  },
+  {
+    "id": 2,
+    "atendimentoId": 1,
+    "tipo": "pausa",
+    "timestamp": "2025-06-20T19:42:23.711Z"
+  },
+  {
+    "id": 3,
+    "atendimentoId": 1,
+    "tipo": "retomada",
+    "timestamp": "2025-06-20T19:56:05.550Z"
+  },
+  {
+    "id": 4,
+    "atendimentoId": 1,
+    "tipo": "check-out",
+    "timestamp": "2025-06-20T20:00:13.645Z"
+  },
+  {
+    "id": 5,
+    "atendimentoId": 1,
+    "tipo": "check-out",
+    "timestamp": "2025-06-20T20:00:39.413Z"
+  },
+  {
+    "id": 6,
+    "atendimentoId": 2,
+    "tipo": "check-in",
+    "timestamp": "2025-06-20T21:38:32.499Z"
+  },
+  {
+    "id": 7,
+    "atendimentoId": 2,
+    "tipo": "pausa",
+    "timestamp": "2025-06-20T22:56:53.183Z"
+  },
+  {
+    "id": 8,
+    "atendimentoId": 2,
+    "tipo": "retomada",
+    "timestamp": "2025-06-20T22:57:09.214Z"
+  },
+  {
+    "id": 9,
+    "atendimentoId": 2,
+    "tipo": "check-out",
+    "timestamp": "2025-06-20T22:57:23.294Z"
+  }
+]

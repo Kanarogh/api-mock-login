@@ -3,4 +3,6 @@ export class CreateClientDto {
   cnpj: string;
   email?: string;
   telefone?: string;
+  latitude?: number;  // ✅ ADICIONADO
+  longitude?: number; // ✅ ADICIONADO
 }

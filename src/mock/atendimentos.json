@@ -1,0 +1,28 @@
+[
+  {
+    "id": 1,
+    "usuarioId": 8,
+    "clienteId": 1,
+    "empresaId": 1,
+    "status": "finalizado",
+    "horaCheckin": "2025-06-20T19:23:32.756Z",
+    "latitudeCheckin": -21.36551,
+    "longitudeCheckin": -45.51201,
+    "horaCheckout": "2025-06-20T20:00:39.413Z",
+    "observacoes": "Visita concluída. Cliente demonstrou interesse no produto Y.",
+    "duracaoTotalMinutos": 23
+  },
+  {
+    "id": 2,
+    "usuarioId": 8,
+    "clienteId": 3,
+    "empresaId": 1,
+    "status": "finalizado",
+    "horaCheckin": "2025-06-20T21:38:32.499Z",
+    "latitudeCheckin": -21.36551,
+    "longitudeCheckin": -45.51201,
+    "horaCheckout": "2025-06-20T22:57:23.294Z",
+    "observacoes": "Visita concluída. Cliente demonstrou interesse no produto Y.",
+    "duracaoMinutos": 78.58
+  }
+]

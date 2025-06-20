@@ -10,6 +10,8 @@ import { PreordersModule } from './routes/preorders/preorders.module';
 import { EstoqueModule } from './routes/estoque/estoque.module';
 import { ClienteSemaforoModule } from './routes/cliente-semaforo/cliente-semaforo.module';
 import { EmpresasModule } from './routes/empresas/empresas.module';
+import { ClientesProximosModule } from './routes/clientes-proximos/clientes-proximos.module';
+import { AtendimentosModule } from './routes/atendimentos/atendimentos.module';
 
 @Module({
   imports: [
@@ -21,7 +23,9 @@ import { EmpresasModule } from './routes/empresas/empresas.module';
     PreordersModule,
     EstoqueModule,
     ClienteSemaforoModule,
-    EmpresasModule
+    EmpresasModule,
+    ClientesProximosModule,
+    AtendimentosModule
   ],
   controllers: [AppController],
   providers: [AppService],
