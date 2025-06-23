@@ -2,12 +2,12 @@
   {
     "id": 1,
     "empresaId": 1,
-    "nome": "Supermercado Central",
+    "nome": "Luciano Supermercado",
     "cnpj": "11.111.111/0001-11",
-    "email": "contato@central.com",
+    "email": "contato@luciano.com",
     "telefone": "(35) 3265-1111",
-    "latitude": -21.36551,
-    "longitude": -45.51201
+    "latitude": -21.3668,
+    "longitude": -45.5145
   },
   {
     "id": 2,
@@ -16,28 +16,28 @@
     "cnpj": "22.222.222/0001-22",
     "email": "loja@magalu.com",
     "telefone": "(35) 3265-2222",
-    "latitude": -21.36605,
-    "longitude": -45.51103
+    "latitude": -21.3680,
+    "longitude": -45.5130
   },
   {
     "id": 3,
     "empresaId": 1,
-    "nome": "Padaria Pão de Ouro",
+    "nome": "Padaria Santo Antônio",
     "cnpj": "33.333.333/0001-33",
-    "email": "contato@paodeouro.com",
+    "email": "contato@santoantonio.com",
     "telefone": "(35) 3265-3333",
-    "latitude": -21.36502,
-    "longitude": -45.51255
+    "latitude": -21.3745,
+    "longitude": -45.5175
   },
   {
     "id": 4,
     "empresaId": 1,
-    "nome": "Drogaria Trespontana",
+    "nome": "Drogaria Matriz",
     "cnpj": "44.444.444/0001-44",
-    "email": "contato@drogariatp.com",
+    "email": "contato@drogariamatriz.com",
     "telefone": "(35) 3265-4444",
-    "latitude": -21.36981,
-    "longitude": -45.51352
+    "latitude": -21.3675,
+    "longitude": -45.5125
   },
   {
     "id": 5,
@@ -46,8 +46,8 @@
     "cnpj": "55.555.555/0001-55",
     "email": "sac@cooxupe.com.br",
     "telefone": "(35) 3266-9300",
-    "latitude": -21.37801,
-    "longitude": -45.52003
+    "latitude": -21.3800,
+    "longitude": -45.5150
   },
   {
     "id": 6,
@@ -56,8 +56,8 @@
     "cnpj": "66.666.666/0001-66",
     "email": "vendas@deposito.com",
     "telefone": "(35) 3265-6666",
-    "latitude": -21.37750,
-    "longitude": -45.51950
+    "latitude": -21.3625,
+    "longitude": -45.5200
   },
   {
     "id": 7,
@@ -66,17 +66,17 @@
     "cnpj": "77.777.777/0001-77",
     "email": "contato@sabordaterra.com",
     "telefone": "(35) 3265-7777",
-    "latitude": -21.36301,
-    "longitude": -45.50892
+    "latitude": -21.3755,
+    "longitude": -45.5070
   },
   {
     "id": 8,
     "empresaId": 3,
-    "nome": "Loja de Roupas Estilo",
+    "nome": "Padaria e Mercearia Oliveira",
     "cnpj": "88.888.888/0001-88",
-    "email": "atendimento@estilo.com",
+    "email": "atendimento@oliveira.com",
     "telefone": "(35) 3265-8888",
-    "latitude": -21.36451,
-    "longitude": -45.51401
+    "latitude": -21.3615,
+    "longitude": -45.5070
   }
 ]

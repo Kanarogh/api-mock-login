@@ -2,7 +2,7 @@ import {
   BadRequestException,
   Injectable,
   NotFoundException,
- 
+
 } from '@nestjs/common';
 import * as fs from 'fs';
 import * as path from 'path';
@@ -116,7 +116,6 @@ export class AtendimentosService {
 
   /**
    * 🚧 Pausa um atendimento em andamento.
-   * (A ser implementado)
    */
   async pausar(atendimentoId: number, usuarioId: number): Promise<Atendimento> {
     const atendimentos = this.readAtendimentos();
@@ -163,7 +162,7 @@ export class AtendimentosService {
    * 🚧 Retoma um atendimento pausado.
    * (A ser implementado)
    */
- async retomar(atendimentoId: number, usuarioId: number): Promise<Atendimento> {
+  async retomar(atendimentoId: number, usuarioId: number): Promise<Atendimento> {
     const atendimentos = this.readAtendimentos();
 
     // 1. Encontra o atendimento específico que pertence ao usuário logado
@@ -207,7 +206,7 @@ export class AtendimentosService {
    * 🚧 Finaliza um atendimento (Checkout).
    * (A ser implementado)
    */
- async checkout(
+  async checkout(
     dto: CreateCheckoutDto,
     atendimentoId: number,
     usuarioId: number,
@@ -234,7 +233,7 @@ export class AtendimentosService {
 
     const now = new Date();
     const eventos = this.readEventos();
-    
+
     // 3. Adiciona o evento final de 'check-out' para o cálculo
     const newEventId = eventos.length ? Math.max(...eventos.map((e) => e.id)) + 1 : 1;
     eventos.push({
@@ -269,7 +268,7 @@ export class AtendimentosService {
     atendimento.status = 'finalizado';
     atendimento.horaCheckout = now.toISOString();
     atendimento.observacoes = dto.observacoes;
-atendimento.duracaoMinutos = Number(duracaoEmMinutos.toFixed(2));
+    atendimento.duracaoMinutos = Number(duracaoEmMinutos.toFixed(2));
     atendimentos[atendimentoIndex] = atendimento;
     this.writeAtendimentos(atendimentos);
 
@@ -280,7 +279,7 @@ atendimento.duracaoMinutos = Number(duracaoEmMinutos.toFixed(2));
    * 🚧 Busca o atendimento atual (em andamento ou pausado) do usuário.
    * (A ser implementado)
    */
-   async getStatusAtual(usuarioId: number): Promise<Atendimento | null> {
+  async getStatusAtual(usuarioId: number): Promise<Atendimento | null> {
     const atendimentos = this.readAtendimentos();
 
     // Encontra o último atendimento do usuário que NÃO esteja finalizado
@@ -291,11 +290,11 @@ atendimento.duracaoMinutos = Number(duracaoEmMinutos.toFixed(2));
     // Retorna o atendimento encontrado ou null se não houver nenhum
     return atendimentoAberto || null;
   }
- 
+
   /**
    * ✅ Busca o histórico de atendimentos finalizados do usuário, com paginação.
    */
-async getHistorico(
+  async getHistorico(
     usuarioId: number,
     page: number,
     limit: number,
@@ -311,7 +310,7 @@ async getHistorico(
       // Verificamos se horaCheckout existe. Se não, usamos 0 como fallback para o sort.
       const timeB = b.horaCheckout ? new Date(b.horaCheckout).getTime() : 0;
       const timeA = a.horaCheckout ? new Date(a.horaCheckout).getTime() : 0;
-      
+
       // Ordena do mais recente (maior tempo) para o mais antigo (menor tempo)
       return timeB - timeA;
     });
@@ -337,7 +336,7 @@ async getHistorico(
     const todosAtendimentos = this.readAtendimentos();
     const todosEventos = this.readEventos();
     // Reutiliza o serviço de clientes para não ler o arquivo de novo
-    const todosClientes = await this.clientsService.findAllWithAllData(); 
+    const todosClientes = await this.clientsService.findAllWithAllData();
     // ^ Assumindo que criaremos um método auxiliar em ClientsService para buscar todos os clientes
 
     // 2. Filtra para encontrar todos os atendimentos do usuário logado
@@ -388,5 +387,5 @@ async getHistorico(
     return eventosOrdenados;
   }
 
-  
+
 }
