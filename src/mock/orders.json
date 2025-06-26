@@ -1,209 +1,19 @@
 [
   {
-    "id": 1749658221784,
-    "empresaId": 3,
-    "vendedorId": 9,
-    "clienteId": 8,
-    "clienteNome": "Café Colonial",
-    "status": "pendente",
-    "data": "2025-06-11T16:10:21.784Z",
-    "dataEntrega": "2025-12-31",
-    "formaPagamento": "Boleto Bancário",
-    "vendedor": "Jhonatas Teixeira",
-    "comissao": "10%",
-    "valorPedido": 64,
-    "total": 64,
-    "itens": [
-      {
-        "produtoId": 9,
-        "quantidade": 5,
-        "nome": "Red Bull 250ml",
-        "preco": 10,
-        "subtotal": 50,
-        "precoFinal": 50
-      },
-      {
-        "produtoId": 10,
-        "quantidade": 2,
-        "nome": "Gatorade 500ml",
-        "preco": 7,
-        "subtotal": 14,
-        "precoFinal": 14
-      }
-    ]
-  },
-  {
-    "id": 1749757489310,
-    "empresaId": 3,
-    "vendedorId": 9,
-    "clienteId": 7,
-    "clienteNome": "Papelaria Nova Era",
-    "status": "pendente",
-    "data": "2025-06-12T19:44:49.310Z",
-    "dataEntrega": "2025-06-03",
-    "formaPagamento": "Pix",
-    "vendedor": "Jhonatas Teixeira",
-    "comissao": "10%",
-    "valorPedido": 21,
-    "total": 21,
-    "itens": [
-      {
-        "produtoId": 12,
-        "quantidade": 3,
-        "nome": "Suco de Laranja Natural 300ml",
-        "preco": 7,
-        "subtotal": 21,
-        "precoFinal": 21
-      }
-    ]
-  },
-  {
-    "id": 1749765331257,
-    "empresaId": 3,
-    "vendedorId": 9,
-    "clienteId": 7,
-    "clienteNome": "Papelaria Nova Era",
-    "status": "pendente",
-    "data": "2025-06-12T21:55:31.257Z",
-    "dataEntrega": "2025-06-03",
-    "formaPagamento": "Pix",
-    "vendedor": "Guilherme Farias",
-    "comissao": "10%",
-    "valorPedido": 20,
-    "total": 20,
-    "itens": [
-      {
-        "produtoId": 9,
-        "nome": "Red Bull 250ml",
-        "quantidade": 2,
-        "preco": 10,
-        "subtotal": 20,
-        "precoFinal": 20
-      }
-    ]
-  },
-  {
-    "id": 1749838844728,
-    "empresaId": 3,
-    "vendedorId": 9,
-    "clienteId": 7,
-    "clienteNome": "Papelaria Nova Era",
-    "status": "pendente",
-    "data": "2025-06-13T18:20:44.728Z",
-    "dataEntrega": "2025-06-03",
-    "formaPagamento": "Pix",
-    "vendedor": "Guilherme Farias",
-    "comissao": "10%",
-    "valorPedido": 21,
-    "total": 21,
-    "itens": [
-      {
-        "produtoId": 10,
-        "nome": "Gatorade 500ml",
-        "quantidade": 3,
-        "preco": 7,
-        "subtotal": 21,
-        "precoFinal": 21
-      }
-    ]
-  },
-  {
-    "id": 1750096161205,
-    "empresaId": 3,
-    "vendedorId": 9,
-    "clienteId": 8,
-    "clienteNome": "Café Colonial",
-    "status": "pendente",
-    "data": "2025-06-16T17:49:21.205Z",
-    "dataEntrega": "2025-06-03",
-    "formaPagamento": "Pix",
-    "vendedor": "Jhonatas Teixeira",
-    "comissao": "10%",
-    "valorPedido": 27,
-    "total": 27,
-    "itens": [
-      {
-        "produtoId": 9,
-        "nome": "Red Bull 250ml",
-        "quantidade": 2,
-        "preco": 10,
-        "subtotal": 20,
-        "precoFinal": 20
-      },
-      {
-        "produtoId": 10,
-        "nome": "Gatorade 500ml",
-        "quantidade": 1,
-        "preco": 7,
-        "subtotal": 7,
-        "precoFinal": 7
-      }
-    ]
-  },
-  {
-    "id": 1750098286351,
+    "id": 1750945972874,
     "empresaId": 1,
     "vendedorId": 8,
-    "clienteId": 1,
-    "clienteNome": "PackSeven",
+    "clienteId": 4,
+    "clienteNome": "Drogaria Matriz",
     "status": "pendente",
-    "data": "2025-06-16T18:24:46.351Z",
+    "data": "2025-06-26T13:52:52.874Z",
     "dataEntrega": "2025-06-03",
     "formaPagamento": "Pix",
     "vendedor": "Jhonatas Teixeira",
     "comissao": "10%",
-    "valorPedido": 52,
-    "total": 52,
+    "valorPedido": 12,
+    "total": 12,
     "itens": [
-      {
-        "produtoId": 3,
-        "nome": "Água Mineral 500ml",
-        "quantidade": 4,
-        "preco": 3,
-        "subtotal": 12,
-        "precoFinal": 12
-      },
-      {
-        "produtoId": 4,
-        "nome": "Guaraná Antárctica 2L",
-        "quantidade": 4,
-        "preco": 10,
-        "subtotal": 40,
-        "precoFinal": 40
-      }
-    ]
-  },
-  {
-    "id": 1750098327648,
-    "empresaId": 1,
-    "vendedorId": 8,
-    "clienteId": 2,
-    "clienteNome": "Noroeste",
-    "status": "pendente",
-    "data": "2025-06-16T18:25:27.648Z",
-    "dataEntrega": "2025-06-03",
-    "formaPagamento": "Cartão de Crédito",
-    "vendedor": "Jhonatas Teixeira",
-    "comissao": "10%",
-    "valorPedido": 53,
-    "total": 53,
-    "itens": [
-      {
-        "produtoId": 2,
-        "nome": "Coca-Cola 600ml",
-        "quantidade": 3,
-        "preco": 8,
-        "subtotal": 24,
-        "precoFinal": 24
-      },
-      {
-        "produtoId": 4,
-        "nome": "Guaraná Antárctica 2L",
-        "quantidade": 2,
-        "preco": 10,
-        "subtotal": 20,
-        "precoFinal": 20
-      },
       {
         "produtoId": 1,
         "nome": "Pepsi Cola 300ml",
@@ -211,39 +21,39 @@
         "preco": 9,
         "subtotal": 9,
         "precoFinal": 9
+      },
+      {
+        "produtoId": 3,
+        "nome": "Água Mineral 500ml",
+        "quantidade": 1,
+        "preco": 3,
+        "subtotal": 3,
+        "precoFinal": 3
       }
     ]
   },
   {
-    "id": 1750098370873,
+    "id": 1750946029179,
     "empresaId": 1,
     "vendedorId": 8,
-    "clienteId": 3,
-    "clienteNome": "Florarte",
+    "clienteId": 4,
+    "clienteNome": "Drogaria Matriz",
     "status": "pendente",
-    "data": "2025-06-16T18:26:10.873Z",
+    "data": "2025-06-26T13:53:49.179Z",
     "dataEntrega": "2025-06-03",
-    "formaPagamento": "Pix",
-    "vendedor": "Guilherme Farias",
+    "formaPagamento": "Cartão de Crédito",
+    "vendedor": "Jhonatas Teixeira",
     "comissao": "10%",
-    "valorPedido": 30,
-    "total": 30,
+    "valorPedido": 27,
+    "total": 27,
     "itens": [
-      {
-        "produtoId": 3,
-        "nome": "Água Mineral 500ml",
-        "quantidade": 4,
-        "preco": 3,
-        "subtotal": 12,
-        "precoFinal": 12
-      },
       {
         "produtoId": 1,
         "nome": "Pepsi Cola 300ml",
-        "quantidade": 2,
+        "quantidade": 3,
         "preco": 9,
-        "subtotal": 18,
-        "precoFinal": 18
+        "subtotal": 27,
+        "precoFinal": 27
       }
     ]
   }

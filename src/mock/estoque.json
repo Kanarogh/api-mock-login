@@ -2,7 +2,7 @@
   {
     "empresaId": 1,
     "produtoId": 1,
-    "quantidadeEstoque": 62,
+    "quantidadeEstoque": 58,
     "dataReposicao": "2025-02-25",
     "estadoMaisVendido": "São Paulo",
     "estadoMenosVendido": "Goiás"
@@ -18,7 +18,7 @@
   {
     "empresaId": 1,
     "produtoId": 3,
-    "quantidadeEstoque": 47,
+    "quantidadeEstoque": 46,
     "dataReposicao": "2025-06-04",
     "estadoMaisVendido": "São Paulo",
     "estadoMenosVendido": "Goiás"

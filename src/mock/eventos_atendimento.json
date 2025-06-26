@@ -52,5 +52,227 @@
     "atendimentoId": 2,
     "tipo": "check-out",
     "timestamp": "2025-06-20T22:57:23.294Z"
+  },
+  {
+    "id": 10,
+    "atendimentoId": 3,
+    "tipo": "check-in",
+    "timestamp": "2025-06-25T19:38:25.924Z"
+  },
+  {
+    "id": 11,
+    "atendimentoId": 3,
+    "tipo": "pausa",
+    "timestamp": "2025-06-26T00:07:28.974Z"
+  },
+  {
+    "id": 12,
+    "atendimentoId": 3,
+    "tipo": "check-out",
+    "timestamp": "2025-06-26T00:29:14.083Z"
+  },
+  {
+    "id": 13,
+    "atendimentoId": 4,
+    "tipo": "check-in",
+    "timestamp": "2025-06-26T00:30:21.801Z"
+  },
+  {
+    "id": 14,
+    "atendimentoId": 4,
+    "tipo": "pausa",
+    "timestamp": "2025-06-26T00:31:39.162Z"
+  },
+  {
+    "id": 15,
+    "atendimentoId": 4,
+    "tipo": "retomada",
+    "timestamp": "2025-06-26T00:33:33.502Z"
+  },
+  {
+    "id": 16,
+    "atendimentoId": 4,
+    "tipo": "check-out",
+    "timestamp": "2025-06-26T00:35:02.550Z"
+  },
+  {
+    "id": 17,
+    "atendimentoId": 5,
+    "tipo": "check-in",
+    "timestamp": "2025-06-26T00:36:22.779Z"
+  },
+  {
+    "id": 18,
+    "atendimentoId": 5,
+    "tipo": "pausa",
+    "timestamp": "2025-06-26T00:36:40.352Z"
+  },
+  {
+    "id": 19,
+    "atendimentoId": 5,
+    "tipo": "retomada",
+    "timestamp": "2025-06-26T00:36:50.244Z"
+  },
+  {
+    "id": 20,
+    "atendimentoId": 5,
+    "tipo": "pausa",
+    "timestamp": "2025-06-26T00:36:55.952Z"
+  },
+  {
+    "id": 21,
+    "atendimentoId": 5,
+    "tipo": "retomada",
+    "timestamp": "2025-06-26T00:37:37.791Z"
+  },
+  {
+    "id": 22,
+    "atendimentoId": 5,
+    "tipo": "check-out",
+    "timestamp": "2025-06-26T00:42:20.547Z"
+  },
+  {
+    "id": 23,
+    "atendimentoId": 6,
+    "tipo": "check-in",
+    "timestamp": "2025-06-26T00:43:41.948Z"
+  },
+  {
+    "id": 24,
+    "atendimentoId": 6,
+    "tipo": "pausa",
+    "timestamp": "2025-06-26T00:43:57.802Z"
+  },
+  {
+    "id": 25,
+    "atendimentoId": 6,
+    "tipo": "retomada",
+    "timestamp": "2025-06-26T00:44:01.419Z"
+  },
+  {
+    "id": 26,
+    "atendimentoId": 6,
+    "tipo": "pausa",
+    "timestamp": "2025-06-26T00:44:03.146Z"
+  },
+  {
+    "id": 27,
+    "atendimentoId": 6,
+    "tipo": "check-out",
+    "timestamp": "2025-06-26T00:44:05.001Z"
+  },
+  {
+    "id": 28,
+    "atendimentoId": 7,
+    "tipo": "check-in",
+    "timestamp": "2025-06-26T12:43:08.686Z"
+  },
+  {
+    "id": 29,
+    "atendimentoId": 7,
+    "tipo": "check-out",
+    "timestamp": "2025-06-26T12:44:00.754Z"
+  },
+  {
+    "id": 30,
+    "atendimentoId": 8,
+    "tipo": "check-in",
+    "timestamp": "2025-06-26T12:47:23.226Z"
+  },
+  {
+    "id": 31,
+    "atendimentoId": 8,
+    "tipo": "check-out",
+    "timestamp": "2025-06-26T12:49:01.627Z"
+  },
+  {
+    "id": 32,
+    "atendimentoId": 9,
+    "tipo": "check-in",
+    "timestamp": "2025-06-26T12:52:39.603Z"
+  },
+  {
+    "id": 33,
+    "atendimentoId": 9,
+    "tipo": "check-out",
+    "timestamp": "2025-06-26T12:52:41.705Z"
+  },
+  {
+    "id": 34,
+    "atendimentoId": 10,
+    "tipo": "check-in",
+    "timestamp": "2025-06-26T12:56:19.931Z"
+  },
+  {
+    "id": 35,
+    "atendimentoId": 10,
+    "tipo": "check-out",
+    "timestamp": "2025-06-26T12:56:24.333Z"
+  },
+  {
+    "id": 36,
+    "atendimentoId": 11,
+    "tipo": "check-in",
+    "timestamp": "2025-06-26T13:08:18.115Z"
+  },
+  {
+    "id": 37,
+    "atendimentoId": 11,
+    "tipo": "pausa",
+    "timestamp": "2025-06-26T13:08:43.021Z"
+  },
+  {
+    "id": 38,
+    "atendimentoId": 11,
+    "tipo": "retomada",
+    "timestamp": "2025-06-26T13:08:48.387Z"
+  },
+  {
+    "id": 39,
+    "atendimentoId": 11,
+    "tipo": "check-out",
+    "timestamp": "2025-06-26T13:09:33.322Z"
+  },
+  {
+    "id": 40,
+    "atendimentoId": 12,
+    "tipo": "check-in",
+    "timestamp": "2025-06-26T13:09:42.992Z"
+  },
+  {
+    "id": 41,
+    "atendimentoId": 12,
+    "tipo": "pausa",
+    "timestamp": "2025-06-26T13:14:39.231Z"
+  },
+  {
+    "id": 42,
+    "atendimentoId": 12,
+    "tipo": "check-out",
+    "timestamp": "2025-06-26T13:14:42.058Z"
+  },
+  {
+    "id": 43,
+    "atendimentoId": 13,
+    "tipo": "check-in",
+    "timestamp": "2025-06-26T13:16:26.888Z"
+  },
+  {
+    "id": 44,
+    "atendimentoId": 13,
+    "tipo": "pausa",
+    "timestamp": "2025-06-26T13:17:57.494Z"
+  },
+  {
+    "id": 45,
+    "atendimentoId": 13,
+    "tipo": "retomada",
+    "timestamp": "2025-06-26T13:18:20.133Z"
+  },
+  {
+    "id": 46,
+    "atendimentoId": 13,
+    "tipo": "check-out",
+    "timestamp": "2025-06-26T13:20:20.369Z"
   }
 ]
