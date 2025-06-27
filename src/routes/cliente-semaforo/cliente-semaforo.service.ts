@@ -89,19 +89,19 @@ export class ClienteSemaforoService {
   }
 
   findStatusClientes(empresaId: number): ClienteSemaforoDto[] {
-    let todosOsStatus = this.readSemaforoFile();
+  // 1. Remova a leitura do arquivo de cache. Em vez disso,
+  //    SEMPRE calcule os dados a partir da fonte original para garantir que estão atualizados.
+  const todosOsStatus = this._calcularEsalvarDadosSemaforo();
 
-    if (todosOsStatus.length === 0) {
-      todosOsStatus = this._calcularEsalvarDadosSemaforo();
-    }
+  // 2. Com os dados frescos e recalculados, filtre para a empresa do usuário logado.
+  const statusDaEmpresa = todosOsStatus.filter(
+    (s) => s.empresaId === empresaId,
+  );
 
-    const statusDaEmpresa = todosOsStatus.filter(
-      (s) => s.empresaId === empresaId,
-    );
-
-    return statusDaEmpresa.map((item) => {
-      const { empresaId, ...dtoData } = item;
-      return dtoData;
-    });
-  }
+  // 3. Mapeie para o DTO de resposta, removendo o empresaId.
+  return statusDaEmpresa.map((item) => {
+    const { empresaId, ...dtoData } = item;
+    return dtoData;
+  });
+}
 }

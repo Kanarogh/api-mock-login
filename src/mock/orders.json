@@ -1,3 +1,93 @@
 [
-  
+  {
+    "id": 1750959116131,
+    "empresaId": 1,
+    "vendedorId": 8,
+    "clienteId": 1,
+    "clienteNome": "Luciano Supermercado",
+    "status": "pendente",
+    "data": "2025-06-26T17:31:56.131Z",
+    "dataEntrega": "2025-06-03",
+    "formaPagamento": "Pix",
+    "vendedor": "Jhonatas Teixeira",
+    "comissao": "10%",
+    "valorPedido": 17,
+    "total": 17,
+    "itens": [
+      {
+        "produtoId": 2,
+        "nome": "Coca-Cola 600ml",
+        "quantidade": 1,
+        "preco": 8,
+        "subtotal": 8,
+        "precoFinal": 8
+      },
+      {
+        "produtoId": 1,
+        "nome": "Pepsi Cola 300ml",
+        "quantidade": 1,
+        "preco": 9,
+        "subtotal": 9,
+        "precoFinal": 9
+      }
+    ]
+  },
+  {
+    "id": 1750959147774,
+    "empresaId": 1,
+    "vendedorId": 8,
+    "clienteId": 4,
+    "clienteNome": "Drogaria Matriz",
+    "status": "pendente",
+    "data": "2025-06-26T17:32:27.774Z",
+    "dataEntrega": "2025-06-03",
+    "formaPagamento": "Cartão de Crédito",
+    "vendedor": "Guilherme Farias",
+    "comissao": "10%",
+    "valorPedido": 13,
+    "total": 13,
+    "itens": [
+      {
+        "produtoId": 4,
+        "nome": "Guaraná Antárctica 2L",
+        "quantidade": 1,
+        "preco": 10,
+        "subtotal": 10,
+        "precoFinal": 10
+      },
+      {
+        "produtoId": 3,
+        "nome": "Água Mineral 500ml",
+        "quantidade": 1,
+        "preco": 3,
+        "subtotal": 3,
+        "precoFinal": 3
+      }
+    ]
+  },
+  {
+    "id": 1750959222434,
+    "empresaId": 1,
+    "vendedorId": 8,
+    "clienteId": 3,
+    "clienteNome": "Padaria Santo Antônio",
+    "status": "pendente",
+    "data": "2025-06-26T17:33:42.434Z",
+    "dataEntrega": "2025-06-03",
+    "formaPagamento": "Pix",
+    "vendedor": "Jhonatas Teixeira",
+    "comissao": "10%",
+    "valorPedido": 27,
+    "total": 27,
+    "itens": [
+      {
+        "produtoId": 1,
+        "nome": "Pepsi Cola 300ml",
+        "quantidade": 3,
+        "preco": 9,
+        "subtotal": 27,
+        "precoFinal": 27
+      }
+    ]
+  }
 ]

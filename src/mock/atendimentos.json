@@ -167,5 +167,80 @@
     "horaCheckout": "2025-06-26T13:20:20.369Z",
     "observacoes": "Visita concluída. Cliente demonstrou interesse no produto Y.",
     "duracaoMinutos": 3.51
+  },
+  {
+    "id": 14,
+    "usuarioId": 7,
+    "clienteId": 5,
+    "empresaId": 2,
+    "status": "finalizado",
+    "horaCheckin": "2025-06-26T15:38:15.712Z",
+    "latitudeCheckin": -21.3652428,
+    "longitudeCheckin": -45.5133655,
+    "horaCheckout": "2025-06-26T15:38:32.609Z",
+    "observacoes": "dxczxx",
+    "duracaoMinutos": 0.19
+  },
+  {
+    "id": 15,
+    "usuarioId": 7,
+    "clienteId": 5,
+    "empresaId": 2,
+    "status": "finalizado",
+    "horaCheckin": "2025-06-26T16:18:09.085Z",
+    "latitudeCheckin": -21.3652399,
+    "longitudeCheckin": -45.5133621,
+    "horaCheckout": "2025-06-26T16:22:14.099Z",
+    "observacoes": "",
+    "duracaoMinutos": 3.97
+  },
+  {
+    "id": 16,
+    "usuarioId": 7,
+    "clienteId": 5,
+    "empresaId": 2,
+    "status": "finalizado",
+    "horaCheckin": "2025-06-26T16:26:21.327Z",
+    "latitudeCheckin": -21.3652633,
+    "longitudeCheckin": -45.5134983,
+    "horaCheckout": "2025-06-26T16:34:12.319Z",
+    "observacoes": "",
+    "duracaoMinutos": 0
+  },
+  {
+    "id": 17,
+    "usuarioId": 9,
+    "clienteId": 7,
+    "empresaId": 3,
+    "status": "em_andamento",
+    "horaCheckin": "2025-06-26T17:02:22.889Z",
+    "latitudeCheckin": -21.362215,
+    "longitudeCheckin": -45.50955
+  },
+  {
+    "id": 18,
+    "usuarioId": 8,
+    "clienteId": 1,
+    "empresaId": 1,
+    "status": "finalizado",
+    "horaCheckin": "2025-06-26T17:35:34.257Z",
+    "latitudeCheckin": -21.3652434,
+    "longitudeCheckin": -45.5133701,
+    "horaCheckout": "2025-06-26T17:35:59.524Z",
+    "observacoes": "text \n",
+    "duracaoMinutos": 0.16
+  },
+  {
+    "id": 19,
+    "usuarioId": 8,
+    "clienteId": 2,
+    "empresaId": 1,
+    "status": "finalizado",
+    "horaCheckin": "2025-06-26T17:36:11.465Z",
+    "latitudeCheckin": -21.36524,
+    "longitudeCheckin": -45.513362,
+    "horaCheckout": "2025-06-26T17:36:25.803Z",
+    "observacoes": "",
+    "duracaoMinutos": 0.09
   }
 ]

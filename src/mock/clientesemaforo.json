@@ -3,10 +3,10 @@
     "empresaId": 1,
     "clienteId": 1,
     "nome": "Luciano Supermercado",
-    "status": "cinza",
-    "diasUltimoPedido": null,
-    "valorUltimoPedido": null,
-    "totalPedidos": 0
+    "status": "verde",
+    "diasUltimoPedido": 0,
+    "valorUltimoPedido": 17,
+    "totalPedidos": 1
   },
   {
     "empresaId": 1,
@@ -21,19 +21,19 @@
     "empresaId": 1,
     "clienteId": 3,
     "nome": "Padaria Santo Antônio",
-    "status": "cinza",
-    "diasUltimoPedido": null,
-    "valorUltimoPedido": null,
-    "totalPedidos": 0
+    "status": "verde",
+    "diasUltimoPedido": 0,
+    "valorUltimoPedido": 27,
+    "totalPedidos": 1
   },
   {
     "empresaId": 1,
     "clienteId": 4,
     "nome": "Drogaria Matriz",
-    "status": "cinza",
-    "diasUltimoPedido": null,
-    "valorUltimoPedido": null,
-    "totalPedidos": 0
+    "status": "verde",
+    "diasUltimoPedido": 0,
+    "valorUltimoPedido": 13,
+    "totalPedidos": 1
   },
   {
     "empresaId": 2,
