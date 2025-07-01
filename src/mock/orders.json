@@ -89,5 +89,30 @@
         "precoFinal": 27
       }
     ]
+  },
+  {
+    "id": 1751409304531,
+    "empresaId": 1,
+    "vendedorId": 8,
+    "clienteId": 1,
+    "clienteNome": "Luciano Supermercado",
+    "status": "pendente",
+    "data": "2025-07-01T22:35:04.531Z",
+    "dataEntrega": "2025-06-03",
+    "formaPagamento": "Pix",
+    "vendedor": "Jhonatas Teixeira",
+    "comissao": "10%",
+    "valorPedido": 9,
+    "total": 9,
+    "itens": [
+      {
+        "produtoId": 1,
+        "nome": "Pepsi Cola 300ml",
+        "quantidade": 1,
+        "preco": 9,
+        "subtotal": 9,
+        "precoFinal": 9
+      }
+    ]
   }
 ]

@@ -5,8 +5,8 @@
     "nome": "Luciano Supermercado",
     "status": "verde",
     "diasUltimoPedido": 0,
-    "valorUltimoPedido": 17,
-    "totalPedidos": 1
+    "valorUltimoPedido": 9,
+    "totalPedidos": 2
   },
   {
     "empresaId": 1,
@@ -22,7 +22,7 @@
     "clienteId": 3,
     "nome": "Padaria Santo Antônio",
     "status": "verde",
-    "diasUltimoPedido": 0,
+    "diasUltimoPedido": 5,
     "valorUltimoPedido": 27,
     "totalPedidos": 1
   },
@@ -31,7 +31,7 @@
     "clienteId": 4,
     "nome": "Drogaria Matriz",
     "status": "verde",
-    "diasUltimoPedido": 0,
+    "diasUltimoPedido": 5,
     "valorUltimoPedido": 13,
     "totalPedidos": 1
   },
