@@ -5,7 +5,7 @@ import * as path from 'path';
 import { UserDto } from './dto/user.dto';
 import { UpdateUserDto } from './dto/update-user.dto';
 import { CreateUserDto } from './dto/create-user.dto';
- // Importar o DTO de criação
+// Importar o DTO de criação
 
 // A interface agora inclui o campo empresaId
 export interface User {
@@ -14,6 +14,7 @@ export interface User {
   email: string;
   nome: string;
   password: string;
+  refreshToken?: string | null; // ✅ ADICIONE ESTA LINHA
 }
 
 const USERS_FILE = path.resolve(process.cwd(), 'src/mock/users.json');
@@ -59,11 +60,22 @@ export class UsersService implements OnModuleInit {
 
     this.users.push(newUser);
     this.saveUsers();
-    
+
     const { password, ...safeUser } = newUser;
     return new UserDto(safeUser);
   }
 
+  // Em src/routes/users/users.service.ts
+
+  // ... (depois do findByEmail)
+
+  async findById(id: number, empresaId: number): Promise<User | undefined> {
+    // Procura por um usuário que tenha o ID E a empresaId correspondentes.
+    const user = this.users.find(u => u.id === id && u.empresaId === empresaId);
+    return user;
+  }
+
+  // ...
   // O método delete agora verifica se o usuário a ser deletado pertence à mesma empresa
   async deleteById(id: number, empresaId: number): Promise<boolean> {
     const index = this.users.findIndex(user => user.id === id);
@@ -85,7 +97,7 @@ export class UsersService implements OnModuleInit {
     const companyUsers = this.users.filter(user => user.empresaId === empresaId);
     return companyUsers.map(({ password, ...user }) => new UserDto(user));
   }
-  
+
   // O método update agora também verifica a permissão por empresa
   async updateById(id: number, updates: Partial<UpdateUserDto>, empresaId: number): Promise<UserDto> {
     const index = this.users.findIndex(user => user.id === id);
@@ -95,9 +107,9 @@ export class UsersService implements OnModuleInit {
 
     const current = this.users[index];
     if (current.empresaId !== empresaId) {
-        throw new ForbiddenException('Ação não permitida.');
+      throw new ForbiddenException('Ação não permitida.');
     }
-    
+
     if (updates.email && updates.email !== current.email) {
       const emailExists = this.users.find(u => u.email === updates.email);
       if (emailExists) {
@@ -117,6 +129,6 @@ export class UsersService implements OnModuleInit {
     const { password, ...safeUser } = updatedUser;
     return new UserDto(safeUser);
   }
-  
-  // findById e findAll foram combinados/substituídos pela nova lógica
+
+  // findById e findAll foram combinados/substituídos pela nova lógica 
 }

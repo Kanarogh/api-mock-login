@@ -12,14 +12,16 @@ import { ClienteSemaforoModule } from './routes/cliente-semaforo/cliente-semafor
 import { EmpresasModule } from './routes/empresas/empresas.module';
 import { ClientesProximosModule } from './routes/clientes-proximos/clientes-proximos.module';
 import { AtendimentosModule } from './routes/atendimentos/atendimentos.module';
+import { ConfigModule } from '@nestjs/config';
 
 @Module({
   imports: [
-    AuthModule, 
+    ConfigModule.forRoot({ isGlobal: true }),
+    AuthModule,
     UsersModule,
     ProductsModule,
     ClientsModule,
-    OrdersModule, 
+    OrdersModule,
     PreordersModule,
     EstoqueModule,
     ClienteSemaforoModule,
@@ -31,4 +33,4 @@ import { AtendimentosModule } from './routes/atendimentos/atendimentos.module';
   providers: [AppService],
 
 })
-export class AppModule {}
+export class AppModule { }

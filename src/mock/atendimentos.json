@@ -632,5 +632,18 @@
     "horaCheckout": "2025-07-01T22:33:49.608Z",
     "observacoes": "",
     "duracaoMinutos": 0.51
+  },
+  {
+    "id": 50,
+    "usuarioId": 8,
+    "clienteId": 2,
+    "empresaId": 1,
+    "status": "finalizado",
+    "horaCheckin": "2025-07-08T01:28:24.907Z",
+    "latitudeCheckin": 37.4219983,
+    "longitudeCheckin": -122.084,
+    "horaCheckout": "2025-07-08T01:29:01.037Z",
+    "observacoes": "",
+    "duracaoMinutos": 0.38
   }
 ]

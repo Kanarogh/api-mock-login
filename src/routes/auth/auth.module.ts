@@ -8,11 +8,17 @@ import { ResetCodeModule } from 'src/routes/redefinir_senha/reset-code.module';
 import { JwtStrategy } from './jwt.strategy';
 import { PassportModule } from '@nestjs/passport';
 import { EmpresasModule } from '../empresas/empresas.module'; // 1. Importe o módulo de Empresas
+import { ConfigModule, ConfigService } from '@nestjs/config';
+import { JwtRefreshStrategy } from './jwt-refresh.strategy';
 
 @Module({
   imports: [
     PassportModule,
-    JwtModule.register({ secret: 'jwt_secret', signOptions: { expiresIn: '1d' } }),
+    JwtModule.registerAsync({
+      imports: [ConfigModule],
+      useFactory: async (configService: ConfigService) => ({}), // Deixe vazio, vamos configurar no serviço
+      inject: [ConfigService],
+    }),
     UsersModule,
     ResetCodeModule,
     EmpresasModule, // 2. Adicione o EmpresasModule aqui
@@ -22,6 +28,7 @@ import { EmpresasModule } from '../empresas/empresas.module'; // 1. Importe o m�
     AuthService,
     JwtStrategy,
     MailerService,
+    JwtRefreshStrategy,
   ],
 })
-export class AuthModule {}
+export class AuthModule { }

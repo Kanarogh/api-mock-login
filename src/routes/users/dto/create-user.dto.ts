@@ -4,12 +4,12 @@ export class CreateUserDto {
   @IsEmail()
   @IsNotEmpty()
   email: string;
-  
+
   @IsString()
   @IsNotEmpty()
   @MinLength(2)
   nome: string;
-  
+
   @IsString()
   @IsNotEmpty()
   @MinLength(6)
@@ -18,4 +18,6 @@ export class CreateUserDto {
   @IsInt()
   @IsNotEmpty()
   empresaId: number;
+
+
 }

@@ -166,5 +166,35 @@
     "atendimentoId": 49,
     "tipo": "check-out",
     "timestamp": "2025-07-01T22:33:49.608Z"
+  },
+  {
+    "id": 29,
+    "atendimentoId": 50,
+    "tipo": "check-in",
+    "timestamp": "2025-07-08T01:28:24.907Z"
+  },
+  {
+    "id": 30,
+    "atendimentoId": 50,
+    "tipo": "pausa",
+    "timestamp": "2025-07-08T01:28:41.831Z"
+  },
+  {
+    "id": 31,
+    "atendimentoId": 50,
+    "tipo": "retomada",
+    "timestamp": "2025-07-08T01:28:53.557Z"
+  },
+  {
+    "id": 32,
+    "atendimentoId": 50,
+    "tipo": "pausa",
+    "timestamp": "2025-07-08T01:28:59.389Z"
+  },
+  {
+    "id": 33,
+    "atendimentoId": 50,
+    "tipo": "check-out",
+    "timestamp": "2025-07-08T01:29:01.037Z"
   }
 ]

@@ -3,6 +3,7 @@ export class UserDto {
   email: string;
   nome: string;
 
+
   constructor(partial: Partial<UserDto>) {
     Object.assign(this, partial);
   }
